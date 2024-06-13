@@ -3,31 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
-    <title>Landing Page Web</title>
 </head>
 <body>
-   <div class="header">
-       <div>
-            <ul>
-                <li class="logo"><a href="">header logo</a></li>
-                <li><a href="">headerlink one</a></li>
-                <li><a href="">header link two</a></li>
-                <li><a href="">header link three</a></li>
+    <div class="header">
+        <div>
+            <ul class="fbasis">
+                <li class="logo"><a href="#">Creative Shots</a></li>
+                <li class="h-link"><a href="#">Header Link One</a></li>
+                <li class="h-link"><a href="#">Header Link Two</a></li>
+                <li class="h-link"><a href="#">Header Link Three</a></li>
             </ul>
-       </div>
-       <div class="description">
-            <div class="descontainter">
-                <h1>This website is awesome</h1>
-                <p>This website blah blah blah</p>
-
-                <button type="button">Sign up</button>
+        </div>
+        <!-- this is below header -->
+        <div class="sheader"> <!--this is the Flex container-->
+            <div class="fbasis">
+                <div class="maintext">This is Gallery website</div>
+                <div class="h-link">A website where creative shot is shown to perceived by our eyes to aspire and feel.</div>
+                <div><button class="h-link">Sign up</button></div>
             </div>
-            <div class="desimage">
-                <p>this is place holder for an image</p>
+            <div class="img"> <!--this is flex container-->
+                <div><img class="h-img-size" src="images/petr.jpg"></div>
             </div>
-       </div>
-    </div> 
-
+        </div>
+    </div>
+    <!--body-->
+    <div class="body">
+        <div class="info-header">Artistic shots</div>
+        <div class="wrapper">
+            <div class="bimg">
+                <img class="imgsize" src="images/alikiso.jpg" alt="pyramid">
+                <div class="text">A stunning image of pyramid by alik iso.</div>
+            </div>
+            <div class="bimg">
+                <img class="imgsize" src="images/bing.jpg" alt="barcelona">
+                <div class="text">A beautiful image of girl in barcelona.</div>
+            </div>
+            <div class="bimg">
+                <img class="imgsize" src="images/merve.jpg" alt="aesthethic">
+                <div class="text">A aesthethic image capture by merve.</div>
+            </div>
+            <div class="bimg">
+                <img class="imgsize" src="images/miller.jpg" alt="duck">
+                <div class="text">A meaningful image of duck capture by miller.</div>
+            </div>
+        </div>
+        <!-- quotes -->
+        <div class="quotes">
+            <div class="quote-text">A thing that you see in my pictures is that I was not afraid to fall in love with these people.</div>
+            <div class="author">-Annie Leibovitz</div>
+        </div>
+        <!-- call up to action -->
+        <div class="invitation">
+            <div>
+                <div class="inv-text maintext">Call to action! it's time</div>
+                <div class="h-link">Sign up for our product by clicking that button right over there</div>
+            </div>
+            <div class="inv-btn"><button class="h-link">Sign up</button></div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="h-link">Copyright &copy; The Odin Project 2021</div>
+    </div>
 </body>
 </html>
