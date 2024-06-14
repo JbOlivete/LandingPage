@@ -2,16 +2,22 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
-    gap: 100px;
+    gap: 90px;
 }
 div.header{
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
     gap: 30px;
+    background-color: #1f2937;
     padding: 20px 100px 100px 100px;
     margin-bottom: 15px;
 }
+/* reduce redundant section */
+.darkfont{
+    color: #1f2937;
+}
+
+/* --------- */
 ul{
     display: flex;
     padding: 0px;
@@ -45,7 +51,6 @@ button{
     padding: 5px;
     border-radius: 8px;
     border: none;
-    border-color: #E5E7EB;
 }
 button.f-btn{
     border: 3px solid #E5E7EB;
@@ -62,14 +67,14 @@ div.img{
 }
 img.h-img-size{
     width: 400px;
-    height: 202px;
+    height: 206px;
 }
 div.fbasis{
     display: flex;
     flex-direction: column;
     gap: 5px;
     margin-right: auto;
-    flex-basis: 350px;
+    flex-basis: 400px;
 }
 div.h-link{
     font-size: 18px;
@@ -79,6 +84,7 @@ div.h-link{
     display: flex;
     flex-grow: 1;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 25px;
     margin-bottom: 150px;
@@ -86,7 +92,6 @@ div.h-link{
 div.info-header{
     font-size: 36px;
     font-weight: bold;
-    color: #1F2937;
 }
 div.wrapper{
     display: flex;
@@ -128,7 +133,6 @@ div.quote-text{
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    color: #1F2937;
 }
 div.author{
     display: flex;
