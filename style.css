@@ -124,7 +124,7 @@ div.quotes{
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 190px;
+    padding: 100px 600px;
     gap: 30px;
 }
 div.quote-text{
