@@ -9,7 +9,7 @@ div.header{
     flex-direction: column;
     gap: 30px;
     background-color: #1f2937;
-    padding: 20px 100px 100px 100px;
+    padding: 25px 400px 100px 400px;
     margin-bottom: 15px;
 }
 /* reduce redundant section */
@@ -62,7 +62,7 @@ div.img{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-style: dotted;
+    border-style: solid;
     flex-basis: 400px;
 }
 img.h-img-size{
