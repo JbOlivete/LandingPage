@@ -124,12 +124,13 @@ div.quotes{
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 100px 600px;
+    padding: 70px 600px;
     gap: 30px;
 }
 div.quote-text{
     justify-content: center;
     align-items: center;
+    margin: 40px;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
