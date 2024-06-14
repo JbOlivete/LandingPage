@@ -45,6 +45,10 @@ button{
     padding: 5px;
     border-radius: 8px;
     border: none;
+    border-color: #E5E7EB;
+}
+button.f-btn{
+    border: 3px solid #E5E7EB;
 }
 div.sheader{
     display: flex;
